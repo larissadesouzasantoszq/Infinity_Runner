@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aluno\\Infinity_Runner\\Infinity_Runner\\Infinity_Runner.csproj": {}
+    "C:\\Users\\Aluno\\Infinity_Runner-1\\Infinity_Runner\\Infinity_Runner.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aluno\\Infinity_Runner\\Infinity_Runner\\Infinity_Runner.csproj": {
+    "C:\\Users\\Aluno\\Infinity_Runner-1\\Infinity_Runner\\Infinity_Runner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aluno\\Infinity_Runner\\Infinity_Runner\\Infinity_Runner.csproj",
+        "projectUniqueName": "C:\\Users\\Aluno\\Infinity_Runner-1\\Infinity_Runner\\Infinity_Runner.csproj",
         "projectName": "Infinity_Runner",
-        "projectPath": "C:\\Users\\Aluno\\Infinity_Runner\\Infinity_Runner\\Infinity_Runner.csproj",
+        "projectPath": "C:\\Users\\Aluno\\Infinity_Runner-1\\Infinity_Runner\\Infinity_Runner.csproj",
         "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aluno\\Infinity_Runner\\Infinity_Runner\\obj\\",
+        "outputPath": "C:\\Users\\Aluno\\Infinity_Runner-1\\Infinity_Runner\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -60,6 +60,10 @@
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
           "dependencies": {
+            "FFImageLoading.Maui": {
+              "target": "Package",
+              "version": "[1.2.7, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -103,6 +107,10 @@
         "net8.0-ios17.2": {
           "targetAlias": "net8.0-ios",
           "dependencies": {
+            "FFImageLoading.Maui": {
+              "target": "Package",
+              "version": "[1.2.7, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -146,6 +154,10 @@
         "net8.0-maccatalyst17.2": {
           "targetAlias": "net8.0-maccatalyst",
           "dependencies": {
+            "FFImageLoading.Maui": {
+              "target": "Package",
+              "version": "[1.2.7, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -190,6 +202,10 @@
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
           "dependencies": {
+            "FFImageLoading.Maui": {
+              "target": "Package",
+              "version": "[1.2.7, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"

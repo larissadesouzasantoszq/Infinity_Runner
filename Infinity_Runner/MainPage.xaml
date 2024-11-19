@@ -1,23 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Infinity_Runner.MainPage">
+             x:Class="Infinity_Runner.MainPage"
+             Shell.NavBarIsVisible="False">
 
      <Grid>
         <HorizontalStackLayout x:Name="layerFundo">
-        <Image Source="rosa.png"
+        <Image Source="fundo.jpg"
                 Aspect="AspectFill"/>
+        <Image Source="fundo.jpg"
+                Aspect="AspectFill"/>
+        <Image Source="fundo.jpg"
+                Aspect="AspectFill"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout x:Name="layerDois"
+        VerticalOptions="End">
+        <Image Source="arvore.png"
+                HeightRequest="100"
+                Aspect="Fill"/>
+         <Image Source="arvore.png"
+                HeightRequest="100"
+                Aspect="Fill"/>
+         <Image Source="arvore.png"
+                HeightRequest="100"
+                Aspect="Fill"/>
         </HorizontalStackLayout> 
-        <HorizontalStackLayout x:Name="layerAsfalto">
-        <Image Source="chao.png"
-                WidthRequest="400"
-                VerticalOptions="End"/>
-         <Image Source="chao.png"
-                WidthRequest="400"
-                VerticalOptions="End"/>
+        <HorizontalStackLayout x:Name="layerAsfalto"
+                               VerticalOptions="End"
+                               BackgroundColor="Black">
+        <Image Source="chao1.png"
+                HeightRequest="100"
+                Aspect="Fill"/>
+         <Image Source="chao1.png"
+                HeightRequest="100"
+                Aspect="Fill"/>
+         <Image Source="chao1.png"
+                HeightRequest="100"
+                Aspect="Fill"/>
         </HorizontalStackLayout>
         
-        <Image Source="hellokit.png"/>
+        <Image Source="hello_kit.png"
+                HeightRequest="60"
+                WidthRequest="60"/>
     </Grid>
-
 </ContentPage>

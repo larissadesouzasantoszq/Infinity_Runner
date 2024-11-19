@@ -36,32 +36,22 @@ public partial class MainPage : ContentPage
 	{
 		foreach(var a in layerFundo.Children)
 		(a as Image ).WidthRequest = w;
-		foreach(var a in HSLayer2.Children)
-		(a as Image ).WidthRequest = w;
-		foreach (var a in HSLayer3.Children)
-		(a as Image ).WidthRequest = w;
 		foreach( var a in layerAsfalto.Children)
 		(a as Image ).WidthRequest = w;
 
 		layerFundo.WidthRequest=w*1.5;
-		HSLayer2.WidthRequest=w*1.5;
-		HSLayer3.WidthRequest=w*1.5;
-		HSLayerAsfalto.WidthRequest=w*1.5;
+		layerAsfalto.WidthRequest=w*1.5;
 	}
 	void GerenciaCenarios()
 	{
 		MoveCenario();
 		GerenciaCenario(layerFundo);
-		GerenciaCenario(HSLayer2);
-		GerenciaCenario(HSLayer3);
 		GerenciaCenario(layerAsfalto);
 	}
 	void MoveCenario()
 	{
 	
 		layerFundo.TranslationX -= velocidade1;
-		HSLayer2.TranslationX -= velocidade2;
-		HSLayer3.TranslationX -= velocidade3;
 		layerAsfalto.TranslationX -= velocidade;
 	}
 	
@@ -82,9 +72,5 @@ public partial class MainPage : ContentPage
 			GerenciaCenarios();
 			await Task.Delay(tempoEntreFrames);
 		}
-	}
-	
-	
-	
+	}	
 }
-
